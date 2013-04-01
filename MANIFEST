@@ -3,9 +3,7 @@ t/basic.t
 Makefile.PL
 MANIFEST
 TODO
-META.json
 META.yml
 CHANGES
 LICENSE
 README
-Build.PL
