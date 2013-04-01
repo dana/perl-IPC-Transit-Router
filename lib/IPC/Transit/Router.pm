@@ -8,7 +8,7 @@ use vars qw($VERSION @ISA @EXPORT_OK);
 @ISA = qw(Exporter);
 @EXPORT_OK = qw(troute troute_config);
 
-$VERSION = '0.1';
+$VERSION = '0.2';
 
 sub troute {
     my $message = shift;
