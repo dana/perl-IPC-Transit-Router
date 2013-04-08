@@ -8,7 +8,7 @@ use vars qw($VERSION @ISA @EXPORT_OK);
 @ISA = qw(Exporter);
 @EXPORT_OK = qw(troute troute_config);
 
-$VERSION = '0.2';
+$VERSION = '0.3';
 
 sub troute {
     my $message = shift;
@@ -39,6 +39,8 @@ sub handler {
 1;
 
 __END__
+=head1 NAME
+
 IPC::Transit::Router - Allows fast, simple routing of Transit messages
 
 =head1 SYNOPSIS
