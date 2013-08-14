@@ -5,11 +5,9 @@ use 5.006;
 use Message::Router qw(mroute mroute_config);
 use IPC::Transit;
 require Exporter;
-use vars qw($VERSION @ISA @EXPORT_OK);
+use vars qw(@ISA @EXPORT_OK);
 @ISA = qw(Exporter);
 @EXPORT_OK = qw(troute troute_config);
-
-$VERSION = '0.4';
 
 sub troute {
     my $message = shift;
